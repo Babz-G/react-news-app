@@ -43,7 +43,7 @@ function App() {
       </div>
       {news.length === 0 && (
         <div className="no-news-card">
-          <p>No news found.</p>
+          <p className="no-news-p">No news found.</p>
         </div>
       )}
       <div className="news-container">
